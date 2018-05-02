@@ -3,6 +3,5 @@ FROM python:3.6-slim
 
 RUN pip install numpy scipy pandas matplotlib
 
-# Run app.py when the container launches
-#CMD ["python", "app.py"]
+# entrypoint to pyhon directly
 ENTRYPOINT ["/usr/local/bin/python"]
