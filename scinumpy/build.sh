@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker image build -f Dockerfile -t ugo/scipy .
+docker image build -f Dockerfile -t ugo/scinumpy .
