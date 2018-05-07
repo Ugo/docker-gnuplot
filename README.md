@@ -1,2 +1,2 @@
 # docker-gnuplot
-A simple docker image for gnuplot
+A collection of a dockerfiles for a variety of applications.
