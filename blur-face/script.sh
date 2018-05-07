@@ -9,5 +9,5 @@ fi
 rm /iexec/consensus.iexec 2> /dev/null
 
 # print the output in the consensus.iexec file 
-python findFace.py $1 2>&1 | tee -a /iexec/consensus.iexec
+python blurFace.py $1 2>&1 | tee -a /iexec/consensus.iexec
 
