@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker image build -f Dockerfile -t ugo/find-face .
+docker image build -f Dockerfile -t ugodock/find-face .
