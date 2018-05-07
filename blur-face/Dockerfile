@@ -52,7 +52,7 @@ RUN cd ~ && \
 
 RUN cd /
 
-COPY findFace.py findFace.py
+COPY blurFace.py blurFace.py
 COPY script.sh script.sh
 
 ENTRYPOINT ["/script.sh"]
