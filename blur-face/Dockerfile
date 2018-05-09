@@ -26,6 +26,8 @@ RUN apt-get install -y --fix-missing \
     zip \
     python-opencv \
     libopencv-dev \
+    ffmpeg \
+    bc \
     && apt-get clean && rm -rf /tmp/* /var/tmp/*
 
 RUN cd ~ && \
